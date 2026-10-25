@@ -51,7 +51,7 @@ namespace CapriDesktop
     internal sealed class Voice
     {
         internal static string Host = "https://api.elevenlabs.io";
-        internal const string Default = "MkTSSXNgnBULS6ek4pon";
+        internal const string Default = "pNInz6obpgDQGcFmaJgB";
         private static readonly byte[] Entropy = Encoding.UTF8.GetBytes("Capri.ElevenLabs");
         internal volatile string Key;
         internal volatile string VoiceId;
